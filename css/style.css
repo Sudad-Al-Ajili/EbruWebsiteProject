@@ -1,5 +1,5 @@
 body {
-	background: url('../images/cookie-monster.jpg');
+	background: url('../images/artwork_3.jpg');
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
 	background-attachment: fixed;
@@ -10,23 +10,36 @@ body {
 }
 
 #container {
-	background: black;
-	width: 424px;
-	color: white;
-	padding: 15px;
+    background: floralwhite;
+    width: 450px;
+    color: black;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 90%;
+    line-height: 1.3;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 0 15px 15px 0;
 }
 
 h1 {
-	font-size: 80px;
+    font-size: 180px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 2px 2px black;
+    color: indianred;
+
 }
 
 h2 {
-	background: #75C1F6;
-	color: black;
-	padding: 5px;
-	border-radius: 5px;
+    background: indianred;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 a {
-	color: #75C1F6;
-	text-decoration: none;
+    color: indianred;
+    text-decoration: none;
+    padding: 0 5px 0;
 }
